@@ -1,5 +1,6 @@
 package com.escolasementedoamanha.esa;
 
+import android.app.SearchManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebSettings;
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         viewMRT.getSettings().setDomStorageEnabled(true);
         viewMRT.setWebViewClient(new WebViewClient());
         viewMRT.loadUrl("https://escolasementedoamanha.com/login");
+
+       // SearchManager.OnCancelListener();
 
     }
 }
